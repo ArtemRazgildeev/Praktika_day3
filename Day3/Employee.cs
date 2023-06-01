@@ -24,11 +24,17 @@ namespace Day3
             count = _id;
             return count;
         }
+        public int Id0()
+        {
+            _id = 0;
+            count = _id;
+            return count;
+        }
 
 
         public Employee(string fio, double salary, int otdel)
         {
-            
+
             _fio = fio;
             _salary = salary;
             _otdel = otdel;
